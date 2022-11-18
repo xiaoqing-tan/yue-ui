@@ -6,13 +6,12 @@
   "module": "dist/yue-ui.esm.js",
   "browser": "dist/yue-ui.umd.js",
   "types": "src/index.d.ts",
-  "type": "module",
   "files": [
     "src",
     "dist/*.js"
   ],
   "scripts": {
-    "build": "rollup -c",
+    "build": "rollup -c --bundleConfigAsCjs",
     "test": "jest"
   },
   "author": "",
