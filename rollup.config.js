@@ -5,18 +5,18 @@ export default {
   output: [
     {
       format: 'cjs', // 打包为commonjs格式
-      file: 'dist/yue-ui.cjs.js', // 打包后的文件路径名称
-      name: 'yue-ui' // 打包后的默认导出文件名称
+      file: 'dist/tailwind-yue-ui.cjs.js', // 打包后的文件路径名称
+      name: 'tailwind-yue-ui' // 打包后的默认导出文件名称
     },
     {
       format: 'esm', // 打包为esm格式
-      file: 'dist/yue-ui.esm.js',
-      name: 'yue-ui'
+      file: 'dist/tailwind-yue-ui.esm.js',
+      name: 'tailwind-yue-ui'
     },
     {
       format: 'umd', // 打包为umd通用格式
-      file: 'dist/yue-ui.umd.js',
-      name: 'yue-ui',
+      file: 'dist/tailwind-yue-ui.umd.js',
+      name: 'tailwind-yue-ui',
       minifyInternalExports: true
     }
   ],

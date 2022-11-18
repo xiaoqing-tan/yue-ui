@@ -1,4 +1,4 @@
-declare namespace yueUi {
+declare namespace tailwindYueUi {
   /**
    * 生成数字范围内的随机数
    * @param min 最小数字
@@ -8,6 +8,6 @@ declare namespace yueUi {
   export function random(min: number, max: number): number
 }
 
-declare module 'yue-ui' {
-  export = yueUi
+declare module 'tailwind-yue-ui' {
+  export = tailwindYueUi
 }

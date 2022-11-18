@@ -1,10 +1,10 @@
 {
-  "name": "yue-ui",
+  "name": "tailwind-yue-ui",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/yue-ui.cjs.js",
-  "module": "dist/yue-ui.esm.js",
-  "browser": "dist/yue-ui.umd.js",
+  "main": "dist/tailwind-yue-ui.cjs.js",
+  "module": "dist/tailwind-yue-ui.esm.js",
+  "browser": "dist/tailwind-yue-ui.umd.js",
   "types": "src/index.d.ts",
   "files": [
     "src",
